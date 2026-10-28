@@ -79,3 +79,7 @@ htmlcov/
 *.db-shm
 *.db-wal
 *.db-journal
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
