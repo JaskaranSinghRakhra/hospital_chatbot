@@ -71,3 +71,7 @@ htmlcov/
 # Local PDF/data files - uncomment if these contain private or large data
 # data/
 # data2/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
