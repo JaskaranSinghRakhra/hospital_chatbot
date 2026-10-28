@@ -1,0 +1,73 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# SQLite databases and runtime files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+chat_history.db
+
+# FAISS generated indexes (local vector databases)
+faiss_db/
+index.faiss
+index.pkl
+
+# Model caches
+.cache/
+cache/
+huggingface_cache/
+models/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local PDF/data files - uncomment if these contain private or large data
+# data/
+# data2/
